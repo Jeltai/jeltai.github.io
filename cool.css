@@ -1,0 +1,93 @@
+body{
+    background-color:rgb( 41, 41, 41);
+    height: 600px;
+    border: none;
+}
+
+h1, #name,
+#welcome {
+    color: white;
+    font-family:"Fredoka";
+    font-size: 5vw;
+}
+
+.clear {
+    line-height: 3em;
+    text-align: center;
+    margin-top: 15vw;
+  }
+
+
+.name {
+    color: white;
+    font-family: "Fredoka";
+    margin-bottom: 250px;
+  }
+
+
+
+nav a {
+  margin-left: 15vw;
+  text-align: center;
+  background-color: rgb( 41, 41, 41);
+  padding: 2vw;
+  color: white;
+  text-decoration: none;
+  font-family: "Fredoka";
+  font-size: 3vw;
+  border-radius: 8px;
+  transition: 0.7s;
+  border: 3px solid white;
+}
+
+nav a:hover {
+  background-color:rgb(58, 58, 58) ;
+  transition: 0.5s;
+}
+
+.jelt:hover {
+  font-size: 8vw;
+  color: rgb(50, 162, 226);
+  transition: 0.5s;
+}
+
+.jelt {
+  transition: 0.7s;
+}
+
+.bar a{
+  font-family: "Fredoka";
+  font-size: 1.5vw;
+  color:white;
+  text-decoration:none;
+  transition: 0.7s;
+  padding: 0.7vw;
+  border-radius:8px;
+  margin-right: 4px;
+  top: 20px;
+}
+
+.bar a:hover {
+  background-color: rgb(58, 58, 58);
+  transition: 0.5s;
+}
+
+.disctitle h1{
+  text-align: center;
+  margin-top: 250px;
+  font-size:10vw ;
+}
+
+#discord {
+  text-align: center;
+  margin-top: -100px;
+  font-family: "Fredoka";
+  font-size: 3vw;
+  color:white;
+
+
+
+
+
+
+}
