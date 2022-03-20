@@ -12,7 +12,7 @@ h1, #name,
 }
 
 .clear {
-    line-height: 3em;
+    line-height: 2.5em;
     text-align: center;
     margin-top: 15vw;
   }
@@ -114,4 +114,9 @@ nav a:hover {
 #abouttext {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  color: white;
+  margin-top: 125px;
 }
