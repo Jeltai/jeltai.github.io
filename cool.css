@@ -84,10 +84,34 @@ nav a:hover {
   font-family: "Fredoka";
   font-size: 3vw;
   color:white;
+}
 
+.projects {
+  color: white;
+  font-family: "Fredoka";
+  line-height: 1em;
 
+}
 
+#deaddog{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 2.7vw;
+  transition: 0.5s;
+}
 
+#deaddog:hover {
+  color:rgb(121, 233, 233);
+  transition: 0.4s;
+}
 
+.about {
+  color: white;
+  font-family: "Fredoka";
+  line-height: 1em;
+}
 
+#abouttext {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
