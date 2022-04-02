@@ -300,3 +300,10 @@ top: 10px;
 .loginsuccesful {
 justify-content: center;
 }
+
+#help {
+  color: rgb(255, 255, 255);
+  font-family: "Fredoka";
+  font-size: 1.5vw;
+  text-align: center;
+}
