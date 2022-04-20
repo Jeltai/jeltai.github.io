@@ -1,5 +1,5 @@
-import { initializeApp} from "firebase/app";
-import { getAuth, onAuthStateChanged } from "firebase/auth";
+import { initializeApp} from "https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js";
+import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js";
 
 const firebaseApp = initializeApp({
   apiKey: "AIzaSyCTibRCP0qvvjbn8OhXiD3K7cd9UdaakdA",
@@ -12,7 +12,7 @@ const firebaseApp = initializeApp({
 const auth = getAuth(firebaseApp);
 
 onAuthStateChanged(auth, user => {
-  if (user === null) {
+  if (user != null) {
     console.log("logged in!");
   } else {
     console.log("no user");
