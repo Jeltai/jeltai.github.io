@@ -4,11 +4,11 @@
 
 <head>
     <link rel=stylesheet href="cool.css">
-    <title>Home</title>
+    <title>Projects</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image/jpg" href="./applejuice.png" />
+    <link rel="shortcut icon" type="image/jpg" href="./applejuice.png"/>
 </head>
 
 <body>
@@ -25,14 +25,14 @@
         <script src="script.js"></script>
         <div class="modal-content">
 
-            <div class="close"><a href="">+</a></div>
+    <div class="close"><a href="">+</a></div>
 
             <img src="applejuice.png" alt="">
-
+            
             <form action="login.html" method="get">
                 <input type="email" placeholder="E-Mail" required>
                 <input type="password" placeholder="Password" required minlength="6">
-                <input type="submit" class="button">
+            <input type="submit" class="button">
             </form>
             <a class="register" id="register" href="#">Register</a>
         </div>
@@ -42,7 +42,7 @@
     <div class="bg-modal2">
         <script src="script.js"></script>
         <div class="modal-content2">
-
+            
             <div class="close"><a href="">+</a></div>
 
             <img src="applejuice.png" alt="">
@@ -51,52 +51,17 @@
                 <input type="text" placeholder="First Name" required id="firstname">
                 <input type="email" placeholder="E-Mail" required id="email">
                 <input type="password" placeholder="Password" required minlength="6" id="password">
-                <input type="submit" class="button">
+            <input type="submit" class="button">
             </form>
         </div>
     </div>
-    <!--Banana boat-->
-    <div class="clear">
-        <h1 id="welcome">Welcome to my website!</h1>
-        <h1 class="name" id="name">My name is <span class="jelt name">Jelt</span></h1>
+<br>    
+<br>
+    <div class="projects">
+        <h1>Projects:</h1>
+        <a href="https://github.com/Jeltai/jeltai.github.io" target="_blank" style="text-decoration: none;"><h3 id="deaddog">deaddog.nl</h3></a>
     </div>
-
-
-
-    <nav>
-        <a href="./discord.html" class="button1">Discord</a>
-
-        <a href="https://github.com/Jeltai/jeltai.github.io" class="button2" target="_blank">Github</a>
-
-        <a href="https://twitter.com/_Jelt_" class="button3" target="_blank">Twitter</a>
-    </nav>
-
-
-    </div>
-
-    <footer>
-        Jelt :)
-    </footer>
-
-    <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-app.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-      
-        // Your web app's Firebase configuration
-        const firebaseConfig = {
-          apiKey: "AIzaSyCTibRCP0qvvjbn8OhXiD3K7cd9UdaakdA",
-          authDomain: "deaddog-189a9.firebaseapp.com",
-          projectId: "deaddog-189a9",
-          storageBucket: "deaddog-189a9.appspot.com",
-          messagingSenderId: "1054109485025",
-          appId: "1:1054109485025:web:cb393be7018a67a510b4a0"
-        };
-      
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-      </script>
+        
 </body>
 
 </html>
